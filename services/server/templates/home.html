@@ -1,0 +1,19 @@
+k<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<title>DeviantPadam</title>
+
+  </head>
+
+<body>
+{% for i in doc_ids %}
+<a href="{{url_for('torch',id=i)}}">{{i}}</a><br/>
+{% endfor %}
+
+<a href="{{url_for('home',num=num+1)}}">next</a>
+</body>
+
+</html>

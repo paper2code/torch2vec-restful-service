@@ -1,3 +1,11 @@
+.git
+.git/
+.git/*
+.git/**
+Dockerfile*
+docker-compose*
+*.md
+*.tar.gz
 *.npy
 lightning_logs
 lightning_logs/
