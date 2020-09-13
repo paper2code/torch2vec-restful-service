@@ -3,4 +3,4 @@ lightning_logs
 lightning_logs/
 lightning_logs/*
 lightning_logs/**
-
+.env
